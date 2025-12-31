@@ -1,0 +1,22 @@
+Filesystem           Size  Used Avail Use% Mounted on
+/dev/mapper/cs-root   17G  4.8G   13G  28% /
+devtmpfs             1.8G     0  1.8G   0% /dev
+tmpfs                1.8G   84K  1.8G   1% /dev/shm
+tmpfs                725M  9.8M  715M   2% /run
+tmpfs                1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/sda2            960M  420M  541M  44% /boot
+tmpfs                363M  140K  362M   1% /run/user/1000
+/dev/sr0             8.8G  8.8G     0 100% /run/media/vilas/CentOS-Stream-10-BaseOS-x86_64
+               total        used        free      shared  buff/cache   available
+Mem:            3621        1938         647          16        1288        1683
+Swap:           2047           0        2047
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vilas       5608 1500  0.1 230708  4112 pts/1    R+   00:04   0:00 ps aux --sort=-%cpu
+root        5062 37.5 11.3 1150840 419972 ?      Ssl   2025   6:06 /usr/libexec/packagekitd
+root        4866  1.7  0.0      0     0 ?        I     2025   0:24 [kworker/1:2-inode_switch_wbs]
+vilas       2678  1.7  9.3 4095192 348496 ?      Ssl   2025   4:28 /usr/bin/gnome-shell
+root          44  1.0  0.0      0     0 ?        SN    2025   2:47 [khugepaged]
+root           1  0.6  1.1  49964 41904 ?        Ss    2025   1:42 /usr/lib/systemd/systemd --switched-root --system --deserialize=43 rhgb
+vilas       2858  0.6  4.0 1308320 148720 ?      Sl    2025   1:37 /usr/bin/gnome-software --gapplication-service
+root        5137  0.5  0.0      0     0 ?        I     2025   0:04 [kworker/0:3-ata_sff]
+root        1111  0.4  0.2 536976  8700 ?        Ssl   2025   1:17 /usr/bin/vmtoolsd

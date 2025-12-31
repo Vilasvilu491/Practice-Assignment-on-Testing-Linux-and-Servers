@@ -1,0 +1,2 @@
+0 0 * * 2 /path/apache_backup.sh
+0 0 * * 2 /path/nginx_backup.sh
